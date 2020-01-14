@@ -56,3 +56,8 @@ timezone = 'UTC'
 
 1. You should update your database seeding data to use hashed passwords. Generate the hashed passwords using bcrypt.
 1. You'll also need to update your basic-auth middleware to use bcryptjs to compare the password in the basic token with the hash stored in the database.
+
+**JWT / Checkpoint 5**
+
+1. You should create a POST /login endpoint that responds with a JWT.
+1. You'll need to change your middleware for protected endpoints to verify the JWT instead of verifying the base64 encoded basic auth header.
