@@ -61,3 +61,7 @@ timezone = 'UTC'
 
 1. You should create a POST /login endpoint that responds with a JWT.
 1. You'll need to change your middleware for protected endpoints to verify the JWT instead of verifying the base64 encoded basic auth header.
+
+**JWT / Checkpoint 6**
+
+1. You should support a registration form that performs POST requests to a registration endpoint.
